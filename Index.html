@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta author="Rakheem Otukile">
+    <meta name="keywords" content="Singapore, travel, city">
+    <title>Singapore - Passion Made Possible</title>
+    <link rel="stylesheet" href="style sheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="Index.html"><img src="images/singLOGO.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="Event.html">EVENT</a></li>
+                    <li><a href="Lifestyle.html">LIFESTYLE</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="connect.html">CONNECT WITH US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showmenu()"></i>
+        </nav>
+
+        <div class="textbox">
+            <h1>Passion Made Possible</h1>
+            <p>Explore Singapore Now. Travel Later.</p>
+        </div>
+    </section>
+
+ <!-----About----->
+ <Section class="about">
+     <h1>Passion Made Possible</h1>
+     <p>Singapore is more than its tourist attractions. It’s constantly evolving, reinventing, and reimagining itself, with people who are passionate about creating new possibilities. It’s not just about what you can do here, it’s about what you can be.</p>
+ </Section>
+ <section class="virtual">
+    <iframe width="1000" height="500" src="https://www.youtube.com/embed/BJE3HIkQ4zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+ <!--Places to visit-->
+<section class="places">
+    <h1>Vibrant Neighbourhoods</h1>
+    <p>Step into Singapore's different districts,
+        from well-known precincts to quaint suburbs,
+        each with its own distinct character and charm.</p>
+
+        <div class="row">
+            <div class="places-col">
+                <img src="images/hotel marina.jpg" alt="">
+                <div class="layer">
+                    <h3>Marina Bay</h3>
+                    <p>Marina bay represent all things modern and super stylish, from trendy dining destinations to exciting leisure spots</p>
+                </div>
+            </div>
+            <div class="places-col">
+                <img src="images/sentosaisland.jpg" alt="">
+                <div class="layer">
+                    <h3>Sentosa Island</h3>
+                    <p>with its pristine beaches, exciting attractions and tropical landscape, the state of fun is sure to leave you spellbound</p>
+                </div>
+            </div>
+            <div class="places-col">
+                <img src="images/orchardroad.jpg" alt="">
+                <div class="layer">
+                    <h3>Orchard Road</h3>
+                    <p>From luxury retail to world-class international cuisines, Singapore's most famous shopping precinct is home to a wealth of experiences</p>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!--THE FOOD-->
+<section class="food">
+    <h1>Food Highlights</h1>
+    <p>Share in our city’s food obsession, and discover a realm of new flavours, culinary passion and out-of-this-world dining experiences. Our guide to Singapore’s vibrant food scene will have you raring to go (or eat). If you’re a foodie who’s visiting Singapore for the first time, it’s easy to feel overwhelmed. Our sunny island’s trove of world-class eateries, Michelin-starred restaurants and dishes from all across the globe can make it difficult to know where to begin.</p>
+
+    <div class="row">
+        <div class="food-col">
+            <img src="images/satay.jpg" alt="">
+            <h3>Chicken Satay</h3>
+        </div>
+        <div class="food-col">
+            <img src="images/Laksa.jpg" alt="">
+            <h3>Laksa</h3>
+        </div>
+        <div class="food-col">
+            <img src="images/chickenrice.jpg" alt="">
+            <h3>Chicken Rice</h3>
+        </div>
+    </div>
+</section>
+
+<!--virtual experience-->
+
+<section class="virtual">
+    <h1>VIRTUAL EXPERIENCE</h1>
+    <P>Experience Singapore Now. Travel Later</P>
+        <iframe width="1000" height="500" src="https://www.youtube.com/embed/OnmqsDVEBNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+
+<!-----Javascript for toggle menu----->
+<Script>
+    var navLinks = document.getElementById("navLinks")
+    function showmenu() {
+        navLinks.style.right = "0";
+    }
+    function hidemenu() {
+        navLinks.style.right = "-200px";
+    }
+</Script>
+
+<section class="link" style="background-color: #fff;">
+    <p>subscribe to our newsletter to learn more</p>
+    <a href="connect.html" class="button">Explore</a>
+</section>
+
+<!--footer-->
+<section class="footer">
+    <h4>Singapore</h4>
+    <p>Toll-free in Singapore
+        1800 736 2000
+        <br>
+        From Overseas
+        +65 6736 2000</p>
+        <p>Made by Rakheem Otukile 2021 Singapore | Terms of Use  |  Privacy  |  Report Vulnerability</p>
+</section>
+</body>
+</html>
